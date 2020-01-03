@@ -89,8 +89,10 @@ body {
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 640px) {
   body {
     background-color: #333;
   }
 }
+
+

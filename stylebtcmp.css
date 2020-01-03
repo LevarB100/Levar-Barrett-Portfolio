@@ -55,11 +55,12 @@ header {
   justify-content: space-between;
   height: 61px;
   margin-bottom: 36px;
+  text-decoration-color: aliceblue;
 }
 
-header li {
+/* header li {
   float: left;
-}
+} */
 
 .group:after {
   content: "";
@@ -103,6 +104,14 @@ body {
   background-color: blue;
   margin-top: 274px;
   margin-left: 72px;
+}
+.prodiv {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+h8 {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {

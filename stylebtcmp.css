@@ -42,6 +42,7 @@ img {
   height: 250px;
   margin: 40px;
   float: left;
+  margin-top: auto;
 }
 
 a {

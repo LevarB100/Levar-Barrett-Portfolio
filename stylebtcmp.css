@@ -47,6 +47,7 @@ img {
 
 a {
   border: black;
+  text-decoration-color: white;
 }
 
 header {

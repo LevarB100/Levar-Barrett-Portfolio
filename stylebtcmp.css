@@ -43,6 +43,15 @@ img {
   margin: 40px;
   float: left;
   margin-top: auto;
+  /* transform: rotate(90deg); */
+}
+
+#selfie {
+  width: 250px;
+  height: 250px;
+  margin: 40px;
+  float: left;
+  margin-top: auto;
   transform: rotate(90deg);
 }
 

@@ -43,6 +43,7 @@ img {
   margin: 40px;
   float: left;
   margin-top: auto;
+  transform: rotate(90deg);
 }
 
 a {

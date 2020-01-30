@@ -27,7 +27,7 @@ h1 {
 }
 
 .col-sm-12 {
-  text-align: center;
+  align-content: center;
 }
 
 h2 {
@@ -63,7 +63,7 @@ a {
 header {
   background-color: blue;
   display: flex;
-  text-align: center;
+  align-content: center;
   justify-content: space-between;
   height: 61px;
   margin-bottom: 36px;
@@ -101,9 +101,29 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 61px;
-  margin-top: 480px;
+  margin-top: 4px;
   margin-bottom: 0px;
   text-align: center;
+}
+
+* {
+  z-index: 2;
+}
+.particle,
+.particle > canvas,
+#particles-js {
+  z-index: -1 !important;
+}
+
+canvas#particle-js {
+  background-color: white !important;
+  /* important */
+  position: absolute !important;
+  width: 100px !important;
+  height: auto !important;
+  /* depending on where you want this canvas, you can use left/right/top and bottom properties */
+  left: 0;
+  top: 0;
 }
 
 body {

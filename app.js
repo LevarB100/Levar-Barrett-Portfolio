@@ -17,7 +17,7 @@ particlesJS(
   {
     particles: {
       number: {
-        value: 150,
+        value: 350,
         density: {
           enable: true,
           value_area: 800
@@ -70,7 +70,7 @@ particlesJS(
       },
       move: {
         enable: true,
-        speed: 4,
+        speed: 6,
         direction: "none",
         random: false,
         straight: false,
@@ -110,7 +110,7 @@ particlesJS(
           speed: 3
         },
         repulse: {
-          distance: 200
+          distance: 80
         },
         push: {
           particles_nb: 4

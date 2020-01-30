@@ -110,7 +110,7 @@ particlesJS(
           speed: 3
         },
         repulse: {
-          distance: 40
+          distance: 100
         },
         push: {
           particles_nb: 4

@@ -70,7 +70,7 @@ particlesJS(
       },
       move: {
         enable: true,
-        speed: 8,
+        speed: 10,
         direction: "none",
         random: false,
         straight: false,
@@ -110,7 +110,7 @@ particlesJS(
           speed: 3
         },
         repulse: {
-          distance: 100
+          distance: 200
         },
         push: {
           particles_nb: 4

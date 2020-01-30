@@ -46,7 +46,7 @@ particlesJS(
         random: false,
         anim: {
           enable: false,
-          speed: 1,
+          speed: 20,
           opacity_min: 0.1,
           sync: false
         }
@@ -70,7 +70,7 @@ particlesJS(
       },
       move: {
         enable: true,
-        speed: 10,
+        speed: 20,
         direction: "none",
         random: false,
         straight: false,
@@ -110,7 +110,7 @@ particlesJS(
           speed: 3
         },
         repulse: {
-          distance: 200
+          distance: 120
         },
         push: {
           particles_nb: 4

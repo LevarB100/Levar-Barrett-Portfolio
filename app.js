@@ -20,7 +20,7 @@ particlesJS(
         value: 80,
         density: {
           enable: true,
-          value_area: 1000
+          value_area: 800
         }
       },
       color: {
@@ -70,7 +70,7 @@ particlesJS(
       },
       move: {
         enable: true,
-        speed: 6,
+        speed: 50,
         direction: "none",
         random: false,
         straight: false,
@@ -110,7 +110,7 @@ particlesJS(
           speed: 3
         },
         repulse: {
-          distance: 20
+          distance: 200
         },
         push: {
           particles_nb: 4

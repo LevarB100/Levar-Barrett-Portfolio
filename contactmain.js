@@ -18,15 +18,15 @@ $(document).ready(function() {
     }
 
     if (name.length > 2) {
-      statusElm.append("<div>name is valid</div>");
+      statusElm.append("<div>Name is valid</div>");
     } else {
-      statusElm.append("<div>name is not valid</div>");
+      statusElm.append("<div>Name is not valid</div>");
     }
 
     if (message.length > 20) {
-      statusElm.append("<div>message is valid</div>");
+      statusElm.append("<div>Message is valid</div>");
     } else {
-      statusElm.append("<div>message is too short !</div>");
+      statusElm.append("<div>Message is too short !</div>");
     }
   });
 });

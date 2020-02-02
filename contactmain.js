@@ -5,10 +5,10 @@ $(document).ready(function() {
     event.preventDefault();
     console.log("clicked button");
 
-    const email = $(".email").val();
-    const name = $(".name").val();
-    const message = $(".message").val();
-    const statusElm = $(".status");
+    var email = $(".email").val();
+    var name = $(".name").val();
+    var message = $(".message").val();
+    var statusElm = $(".status");
     statusElm.empty();
 
     if (email.length > 5 && email.includes("@") && email.includes(".")) {

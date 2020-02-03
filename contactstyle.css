@@ -6,3 +6,7 @@ input,
 textarea {
   display: block;
 }
+
+.container {
+  align-content: center;
+}

@@ -5,7 +5,7 @@ $(document).ready(function() {
     console.log("clicked button");
 
     var email = $(".email").val();
-    var name = $(".name").val();
+    var name = $(".namecon").val();
     var message = $(".message").val();
     var statusElm = $(".status");
     statusElm.empty();

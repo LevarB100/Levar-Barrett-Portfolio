@@ -150,10 +150,16 @@ h8 {
   body {
     background-color: #333;
   }
+  #selfie {
+    transform: rotate(90deg);
+  }
 }
 
 @media screen and (max-width: 640px) {
   body {
     background-color: #333;
+  }
+  #selfie {
+    transform: rotate(90deg);
   }
 }
